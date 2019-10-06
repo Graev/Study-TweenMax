@@ -1,0 +1,38 @@
+.center {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    top: calc(100vh/2);
+    left: calc(100vw/2);
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-right: 10px;
+
+}
+
+.square1 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: salmon;
+    margin-right: 10px;
+
+}
+
+.square2 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rebeccapurple;
+    margin-right: 10px;
+
+}
